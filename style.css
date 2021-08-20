@@ -1,0 +1,306 @@
+*{margin:0;
+padding:0;
+max-width: 1900px;
+font-family: 'Roboto', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.contenedor h1 {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 400px;
+    margin-left:30px;
+    }
+
+.contenedor h1 {
+   animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+}
+
+
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+ h2{
+   color:#DBDFE2;
+   font-family:'Roboto', sans-serif;
+ }
+ 
+ .contenedor{
+  display: flex;
+  padding:30px;
+  padding-bottom: 20px;
+}
+
+.fotoapertura {
+width: 100%;
+}
+
+#header{
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+ ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    font-family:'RobotoThin', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-right:1px solid black;
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(252, 6, 116);
+    text-decoration: none;
+    color: white;
+  }
+
+ li {
+    display: inline;
+  }
+
+ 
+
+ table {
+    background-color: #AB78C1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 1.6;
+    color: aliceblue;
+    text-align: right;
+  }
+  #fotoarriba {
+    position: relative;
+    margin-top: 120px;
+    padding-bottom: 20px;
+    }
+
+.cajaformulario {
+background-color:#55bbd7;
+padding:50px;
+border-radius: 30px;
+margin-top: 90px;
+margin-bottom: 30px;  
+display:flex;
+flex-direction:row;
+flex-direction: wrap;
+}
+
+.logo img{
+width: 75%;
+height: auto;
+
+}
+    
+form {
+  width: 100%;
+  font-family: 'RobotoThin', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.cajaformulario h3 {
+  font-family: 'RobotoThin', sans-serif;
+  font-size: 2rem;
+}
+
+.cajaformulario p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+form legend{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+footer p{
+
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+/*AQUI APLICO FLEXBOX Y GRID*/
+
+.textoCaja {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+    }
+
+ .textoCaja img {
+   display: flex;
+   flex-direction: row;
+   width:auto;
+   height:auto;
+ }   
+
+
+.contenedor {
+  min-height: 800px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(IMG/apertura_estudio.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedor h1{
+color: white;
+margin-left: 30px;
+}
+
+
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.flex-container >div {
+  color: white;
+  width: 200px;
+  height:200px;
+  margin: 2px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+a:link 
+{text-decoration: none; 
+}
+
+a:hover {
+  color:#DBDFE2;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.cajaRojo{
+  background-color:#DA0A1B;
+}
+
+.cajaAzul{
+  background-color:#50BBD9;
+}
+
+.cajaMagenta{
+  background-color:#D92378;
+}
+
+.cajaVerde{
+  background-color:#68A629;
+}
+
+.cajaRojo:hover {
+  background-color: #D92378;
+ }
+
+ .cajaAzul:hover {
+  background-color:#68A629;
+ }
+
+ .cajaMagenta:hover {
+  background-color:#DA0A1B;
+ }
+
+.cajaVerde:hover {
+  background-color:#50BBD9;
+ }
+
+ /* Imagen full responsive*/
+ .carousel-inner {
+  position: relative;
+  width: 90%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+
+
+.menuFooter{
+  display: flex;
+  justify-content: center;
+}
+     
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  padding: .5rem 1rem;
+}
+
+.figure-caption {
+  font-size: 16px;
+ font-family:'Roboto', sans-serif;
+
+}
+
+.nospresentamos {
+  padding: 10px;
+  color:darkgrey;
+  font-size: 16px;
+  text-align: left;
+  line-height: 2rem;
+  font-family:'Roboto', sans-serif;
+
+}
+
+.tituloparrafo {
+  font-family: 'Robotolight', sans-serif;;
+  color:black;
+  padding:10px 0px 0px 10px;
+}
+
