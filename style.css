@@ -295,6 +295,7 @@ a {
   text-align: left;
   line-height: 2rem;
   font-family:'Roboto', sans-serif;
+  text-align: justify;
 
 }
 
@@ -311,4 +312,4 @@ a {
   border-radius: 50%;
   float: left;
   shape-outside: circle();
-}
+  }
