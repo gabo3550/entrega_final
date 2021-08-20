@@ -303,4 +303,12 @@ a {
   color:black;
   padding:10px 0px 0px 10px;
 }
-
+.unCirculo{
+  background:url("IMG/Gise_Gabo.png") ;
+  margin: 1vw 2vw 2vw 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+}
